@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 25px;
+    line-height: 1.4;
+    background-color: transparent;
+    font-family: sans-serif,Arial;
+    color: white;
+    height: 100%;
+}
+
+.main-logo{
+    border-radius: 200px;
+    height: 112px;
+    margin-top: 5px;
+    float: left;
+    animation: spin 0.25s 3 linear forwards;
+}
+
+.main-nav{
+    width: 95%;
+    margin: auto;
+    height: 100px;
+    /*background-color: aqua;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+}
+.main-nav-links{
+    float: left;
+    width: 85%;
+    /*background-color: red;*/
+}
+
+.main-nav-logo{
+    float: left;
+    width: 15%;
+    /*background-color: yellow;*/
+}
+
+.main-nav-links a{
+    float: left;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 35px;
+    color: white;
+}
+
+.main-nav-links a:link,
+.main-nav-links a:visited{}
+
+.main-nav-links a:hover,
+.main-nav-links a:active{
+    border-bottom: white 3px solid;
+}
+
+
+.clr{
+    clear: both;
+}
+
+@keyframes spin {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

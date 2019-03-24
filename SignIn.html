@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Common.css" rel="stylesheet" type="text/css">
+    <link href="SignInC.css" rel="stylesheet" type="text/css">
+    <title>Food Court</title>
+</head>
+<body>
+
+<section id="nonModal" style="height: 100%">
+<p class="particle" style="animation: freefalls 1s infinite 2s">.</p>
+<p class="particle" style="animation: freefallr 1.2s infinite 1s">*</p>
+<p class="particle" style="animation: freefalll 0.9s infinite 1.2s">*</p>
+<p class="particle" style="animation: freefalls 1.1s infinite 1s">.</p>
+<p class="particle" style="animation: freefallr 1.1s infinite 2s">*</p>
+<p class="particle" style="animation: freefalls 1.3s infinite 1s">*</p>
+<p class="particle" style="animation: freefalls 1.5s infinite 2s">.</p>
+<p class="particle" style="animation: freefallr 1s infinite 0.8s">*</p>
+<p class="particle" style="animation: freefalll 0.9s infinite 0.7s">*</p>
+<p class="particle" style="animation: freefalll 1.2s infinite 1s">*</p>
+<p class="particle" style="animation: freefallr 1.1s infinite 2s">.</p>
+<p class="particle" style="animation: freefalls 1.3s infinite 1s">*</p>
+
+<header>
+    <nav class="main-nav">
+        <div class="main-nav-logo">
+            <a href="Index.html">
+            <img src="pics/pizza.png" class="main-logo" alt="Logo" title="Home">
+            </a>
+        </div>
+        <div class="main-nav-links">
+
+            <a href="#">Order</a>
+            <a href="#">Popular Now</a>
+            <a href="Review.html">Reviews</a>
+            <a href="#">Sign In</a>
+        </div>
+
+    </nav>
+
+    <div class="clr"></div>
+
+</header>
+
+<div id="login-form">
+    <h1>SIGN IN</h1>
+
+    <div class="login">
+        <form action="#">
+            <p>Email:</p>
+            <input  class="input1" id="loginEmail" type="email"><br>
+            <br>
+            <p>Password:</p>
+            <input class="input1" id="loginPass" type="password"><br>
+            <br>
+            <input class="signinbtn" id="LoginBtn" type="submit" value="Sign In">
+            <br>
+            <br>
+            <button id="p2">Do not have an account? Sign Up!</button>
+
+        </form>
+    </div>
+
+</div>
+</section>
+
+<div id="CreateModal">
+    <div class="createForm">
+    <form action="#">
+        <p>Email:</p>
+        <input  class="createInput" type="email"><br>
+
+        <p>Password:</p>
+        <input class="createInput" type="password"><br>
+
+        <p>Address 1:</p>
+        <input class="createInput" type="text" placeholder="Society name, Flat Number">
+        <p>Address 2:</p>
+        <input class="createInput" type="text" placeholder="Landmark, Town">
+        <p>Address 3:</p>
+        <input class="createInput" type="text" placeholder="City, State">
+        <p>Pincode:</p>
+        <input class="createInput" type="text" placeholder="Pincode">
+        <br>
+        <br>
+        <input class="cBTN" id="signupbtn" type="submit" value="Create account">
+        <input class="cBTN" id="cancelbtn" type="button" value="Cancel">
+    </form>
+    </div>
+</div>
+
+<script src="SignInJ.js"></script>
+</body>
+</html>

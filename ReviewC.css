@@ -1,0 +1,12 @@
+.main-logo{
+    animation: none;
+}
+
+.para-back-1{
+    background-image: linear-gradient(rgba(6,6,6,0.5),rgba(6,6,6,0.5)),url("pics/michael-browning-14090-unsplash.jpg");
+    height:700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
